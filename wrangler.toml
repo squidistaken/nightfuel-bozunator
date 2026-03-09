@@ -2,7 +2,7 @@ name = "workers-test"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 
-# Simpler route syntax (no zone_name required)
+# Replace this with YOUR domain that you own
 routes = [
-	"empty.svcover.nl/*"
+	{ pattern = "givemebozunightfuel.com/*", zone_name = "givemebozunightfuel.com" }
 ]
