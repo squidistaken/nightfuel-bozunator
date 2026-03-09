@@ -2,7 +2,7 @@ name = "workers-test"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 
-# We use 'routes' (plural) to intercept traffic to your existing PHP site
+# Simpler route syntax (no zone_name required)
 routes = [
-	{ pattern = "empty.svcover.nl/*", zone_name = "svcover.nl" }
+	"empty.svcover.nl/*"
 ]
