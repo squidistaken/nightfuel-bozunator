@@ -1,8 +1,7 @@
-name = "workers-test"
+name = "nightfuel-bozunator"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 
-# Replace this with YOUR domain that you own
 routes = [
 	{ pattern = "givemebozunightfuel.com/*", zone_name = "givemebozunightfuel.com" }
 ]
